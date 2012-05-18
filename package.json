@@ -1,0 +1,12 @@
+{
+  "name": "cleverbot-node",
+  "keywords": ["cleverbot"],
+  "description": "Cleverbot client",
+  "version": "0.1.0",
+  "author": "Anthony Fojas<developer@fojasaur.us>",
+  "directories" : {
+    "lib" : "./lib",
+    "example": "./examples"
+  },
+  "main": "./lib/cleverbot.js",
+}
