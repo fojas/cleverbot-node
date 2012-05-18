@@ -8,5 +8,5 @@
     "lib" : "./lib",
     "example": "./examples"
   },
-  "main": "./lib/cleverbot.js",
+  "main": "./lib/cleverbot.js"
 }
