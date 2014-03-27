@@ -2,7 +2,7 @@
   "name": "cleverbot-node",
   "keywords": ["cleverbot"],
   "description": "Cleverbot client",
-  "version": "0.1.2",
+  "version": "0.1.8",
   "author": "Anthony Fojas<developer@fojasaur.us>",
   "url" : "https://github.com/fojas/cleverbot-node",
   "directories" : {
