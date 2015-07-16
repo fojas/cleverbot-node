@@ -2,16 +2,30 @@
   "name": "cleverbot-node",
   "keywords": ["cleverbot"],
   "description": "Cleverbot client for node.js",
-  "version": "0.2.0",
-  "author": "Mike Burke <mburke@phpmonkeys.com>",
-  "url" : "https://github.com/AvatarKava/cleverbot-node",
+  "version": "0.2.1",
+  "contributors": [
+    {
+      "name": "Christopher Chapman",
+      "email": "cchapman@fullsail.com"
+    },
+    {
+      "name": "Evan Coury",
+      "email": "me@evancoury.com"
+    },
+    {
+      "name": "Mike Burke",
+      "email": "mburke@phpmonkeys.com"
+    }
+  ],
+  "author": "Anthony U Fojas <developer@fojasaur.us>",
+  "url" : "https://github.com/fojas/cleverbot-node/",
   "directories" : {
     "lib" : "./lib",
     "example": "./examples"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AvatarKava/cleverbot-node.git"
+    "url": "https://github.com/fojas/cleverbot-node.git"
   },
   "main": "./lib/cleverbot.js",
   "dependencies": {
