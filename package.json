@@ -2,7 +2,7 @@
   "name": "cleverbot-node",
   "keywords": ["cleverbot"],
   "description": "Cleverbot client for node.js",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "contributors": [
     {
       "name": "Christopher Chapman",
