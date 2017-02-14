@@ -6,6 +6,12 @@ var CBots = [new Cleverbot,new Cleverbot]
     CBots[i].write(resp['message'],callback);
     console.log(name[i = ( ( i + 1 ) %2)],' : ',  resp['message'])
   };
+
+CBots.forEach(function(bot) {
+  bot.configure({botapi: "CHANGEME"});
+});
+
 Cleverbot.prepare(function(){
   callback({message:'Just a small town girl'})
 });
+

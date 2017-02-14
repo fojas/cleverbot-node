@@ -2,24 +2,7 @@
 
 A node.js client for talking to cleverbot.
 
-Based on the [Cleverbot ruby gem](https://github.com/benmanns/cleverbot)
-Forked from https://github.com/fojas/cleverbot-node
-
 Basic usage:
-
-```
-    var Cleverbot = require('cleverbot-node');
-    cleverbot = new Cleverbot;
-    Cleverbot.prepare(function(){
-      cleverbot.write(cleverMessage, function (response) {
-           alert(response.message);
-      });
-    });
-```
-
-With API Key:
-
-The unofficial cleverbot api requests can optionally contain an API key. Information can be found here: http://www.cleverbot.com/apis
 
 In order to add your key to your bot, you can use the `configure` method.
 
@@ -27,11 +10,19 @@ In order to add your key to your bot, you can use the `configure` method.
     var Cleverbot = require('cleverbot-node');
     cleverbot = new Cleverbot;
     cleverbot.configure({botapi: "IAMKEY"});
-    Cleverbot.prepare(function(){
-      cleverbot.write(cleverMessage, function (response) {
-           alert(response.message);
-      });
+    cleverbot.write(cleverMessage, function (response) {
+       console.log(response.output);
     });
 ```
+
+### Changes from 0.2.x
+
+* API Key is now required
+* `Cleverbot.prepare` call is no longer needed. It is now a noop for backwards compatibility
+* The output of the bot is now in the `output` attribute of the response object. It is copied to `message` for backwards compatibility
+
+### Known issues
+
+* Cleverbot API sometimes returns an empty response attribute
 
 See 'examples' for more usage.
