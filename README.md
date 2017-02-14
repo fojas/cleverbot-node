@@ -4,7 +4,7 @@ A node.js client for talking to cleverbot.
 
 Basic usage:
 
-In order to add your key to your bot, you can use the `configure` method.
+In order to add your key to your bot, you can use the `configure` method. API keys can be obtained from the [Cleverbot API Sign Up Page](http://cleverbot.com/api).
 
 ```
     var Cleverbot = require('cleverbot-node');
