@@ -3,20 +3,7 @@
   "keywords": ["cleverbot"],
   "description": "Cleverbot client for node.js",
   "version": "0.3.4",
-  "contributors": [
-    {
-      "name": "Christopher Chapman",
-      "email": "cchapman@fullsail.com"
-    },
-    {
-      "name": "Evan Coury",
-      "email": "me@evancoury.com"
-    },
-    {
-      "name": "Mike Burke",
-      "email": "mburke@phpmonkeys.com"
-    }
-  ],
+  "license": "MIT",
   "author": "Anthony U Fojas <developer@fojasaur.us>",
   "url" : "https://github.com/fojas/cleverbot-node/",
   "directories" : {
