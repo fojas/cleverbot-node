@@ -1,3 +1,5 @@
+require('dotenv').config()
+var key = process.env.CLEVERBOT_KEY || "CHANGEME"
 var Cleverbot = require('../lib/cleverbot');
 var CBots = [new Cleverbot,new Cleverbot]
   , i = 0
@@ -8,7 +10,7 @@ var CBots = [new Cleverbot,new Cleverbot]
   };
 
 CBots.forEach(function(bot) {
-  bot.configure({botapi: "CHANGEME"});
+  bot.configure({botapi: key});
 });
 
 Cleverbot.prepare(function(){

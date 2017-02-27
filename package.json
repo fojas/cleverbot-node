@@ -1,13 +1,15 @@
 {
   "name": "cleverbot-node",
-  "keywords": ["cleverbot"],
+  "keywords": [
+    "cleverbot"
+  ],
   "description": "Cleverbot client for node.js",
   "version": "0.3.4",
   "license": "MIT",
   "author": "Anthony U Fojas <developer@fojasaur.us>",
-  "url" : "https://github.com/fojas/cleverbot-node/",
-  "directories" : {
-    "lib" : "./lib",
+  "url": "https://github.com/fojas/cleverbot-node/",
+  "directories": {
+    "lib": "./lib",
     "example": "./examples"
   },
   "repository": {
@@ -15,6 +17,8 @@
     "url": "https://github.com/fojas/cleverbot-node.git"
   },
   "main": "./lib/cleverbot.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "dotenv": "^4.0.0"
   }
 }
