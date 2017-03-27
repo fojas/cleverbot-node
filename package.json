@@ -17,8 +17,5 @@
     "url": "https://github.com/fojas/cleverbot-node.git"
   },
   "main": "./lib/cleverbot.js",
-  "dependencies": {},
-  "devDependencies": {
-    "dotenv": "^4.0.0"
-  }
+  "dependencies": {}
 }

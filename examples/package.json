@@ -1,0 +1,12 @@
+{
+  "name": "cleverbot-node-example",
+  "license": "MIT",
+  "author": "Anthony U Fojas <developer@fojasaur.us>",
+  "scripts": {
+    "prestart": "ln ./env.sample ./.env 2> /dev/null || true",
+    "start": "node ./sample.js"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
