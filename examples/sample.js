@@ -5,9 +5,12 @@ var CBots = [new Cleverbot,new Cleverbot]
   , i = 0
   , name = ['Bob Loblaw', 'Stan Sitwell']
   , callback = function callback(resp){
-    CBots[i].write(resp['message'],callback);
-    console.log(name[i = ( ( i + 1 ) %2)],' : ',  resp['message'])
-  };
+      CBots[i].write(resp['message'],callback, errCallback);
+      console.log(name[i = ( ( i + 1 ) %2)],' : ',  resp['message'])
+    }
+  , errCallback = function(error, originalMessage, response) {
+      console.log(error, originalMessage, response);
+    };
 
 CBots.forEach(function(bot) {
   bot.configure({botapi: key});
